@@ -1,0 +1,13 @@
+Versión premium Castilblanco Laser
+
+Cambios aplicados:
+- Cabecera con barra superior de contacto.
+- Logo centrado y navegación estilo corporativo.
+- Banner corporativo a ancho completo en escritorio.
+- Banner oculto en móvil para no romper el responsive.
+- Eliminada la tarjeta lateral “Trabajos reales” del hero.
+- Añadidas 4 tarjetas de servicio bajo el banner.
+- Hero principal centrado en escritorio y limpio en móvil.
+- Galería de trabajos en mosaico más compacto en escritorio.
+- Textos visibles actualizados a MiniTú.
+- MiniTú y su formulario se mantienen.

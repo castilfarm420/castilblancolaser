@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Diseño, corte y grabado láser personalizado en Castilblanco de los Arroyos (Sevilla). Trabajos en madera, metacrilato, regalos personalizados, cartelería, decoración y proyectos a medida." />
+  <title>Castilblanco Laser | Corte y grabado láser en Castilblanco de los Arroyos, Sevilla</title>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:title" content="Castilblanco Laser | Corte y grabado láser en Sevilla">
+  <meta property="og:description" content="Diseño, corte y grabado láser personalizado en Castilblanco de los Arroyos (Sevilla). Trabajos en madera, metacrilato, regalos personalizados, cartelería y decoración.">
+  <meta property="og:image" content="/favicon-512.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="navbar">
+      <a class="brand" href="#inicio" aria-label="Castilblanco Laser">
+        <img src="img/castilblanco-logo-negro.svg" alt="Castilblanco Laser" class="brand-logo">
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <div class="nav-links">
+        <a href="#trabajos">Trabajos</a>
+        <a href="#funkos" class="nav-minitu-link"><img src="img/minitu-logo.png" alt="MiniTú" class="nav-minitu-logo"><span>MiniTú</span></a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+
+    <section class="corporate-banner container reveal" aria-label="Castilblanco Laser: diseño, corte y grabado láser">
+      <img src="img/bannerweb.jpg" alt="Banner corporativo Castilblanco Laser - diseño, corte y grabado láser">
+    </section>
+
+    <section class="hero container">
+      <div class="hero-content reveal">
+<p class="eyebrow">Corte · Grabado · Diseño personalizado</p>
+        <h1>Diseños únicos hechos con láser y mucha personalidad.</h1>
+        <p class="hero-text">En Castilblanco Laser creamos piezas personalizadas en madera, metacrilato y otros materiales: regalos, decoración, cartelería, detalles para eventos y proyectos a medida.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#presupuesto">Pedir presupuesto</a>
+          <a class="btn secondary" href="#trabajos">Ver trabajos</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="hero-photo-grid">
+          <img src="img/elegidas/elegida-01.jpg" alt="Trabajo destacado">
+          <img src="img/elegidas/elegida-03.jpg" alt="Trabajo destacado">
+          <img src="img/elegidas/elegida-15.jpg" alt="Trabajo destacado">
+          <img src="img/elegidas/elegida-24.jpg" alt="Trabajo destacado">
+        </div>
+        <h2>Trabajos reales</h2>
+        <p>Descubre algunos de nuestros proyectos personalizados realizados con corte y grabado láser.</p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="stats container reveal" aria-label="Ventajas">
+      <article><strong>100%</strong><span>Diseños personalizados</span></article>
+      <article><strong>Local</strong><span>Castilblanco de los Arroyos</span></article>
+      <article><strong>A medida</strong><span>Desde una idea hasta la pieza final</span></article>
+    </section>
+
+    <section class="section container" id="trabajos">
+      <div class="section-title reveal">
+        <p class="eyebrow">Galería</p>
+        <h2>Trabajos destacados</h2>
+        <p>Una selección de trabajos reales: grabados, cartelería, decoración, regalos personalizados y MiniTú.</p>
+      </div>
+
+      <div class="filters reveal">
+        <button class="filter-btn active" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="madera">Madera</button>
+        <button class="filter-btn" data-filter="metacrilato">Metacrilato</button>
+        <button class="filter-btn" data-filter="decoracion">Decoración</button>
+        <button class="filter-btn" data-filter="personalizados">Personalizados</button>
+        <button class="filter-btn" data-filter="funkos">MiniTú</button>
+      </div>
+
+      <div class="gallery">
+        <article class="project-card reveal" data-category="madera personalizados" data-title="Grabados personalizados" data-material="Madera" data-technique="Grabado láser" data-gallery="img/elegidas/elegida-02.jpg|img/elegidas/elegida-06.jpg|img/elegidas/elegida-18.jpg|img/elegidas/elegida-19.jpg|img/elegidas/elegida-12.jpg" data-description="Grabados en madera y otros soportes: nombres, frases, logos, dibujos y detalles únicos para regalos o piezas decorativas.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto Grabados personalizados">
+            <div class="project-image"><img src="img/elegidas/elegida-02.jpg" alt="Grabado personalizado en madera"></div>
+            <div class="project-info"><h3>Grabados personalizados</h3><p>Nombres, frases, logos y dibujos grabados con láser.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+        <article class="project-card reveal" data-category="decoracion madera" data-title="Decoración infantil y familiar" data-material="Madera / MDF" data-technique="Corte y grabado láser" data-gallery="img/elegidas/elegida-04.jpg|img/elegidas/elegida-09.jpg|img/elegidas/elegida-10.jpg|img/elegidas/elegida-11.jpg|img/elegidas/elegida-22.jpg" data-description="Piezas decorativas personalizadas para habitaciones, regalos familiares, nombres, marcos y detalles especiales.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto Decoración infantil y familiar">
+            <div class="project-image"><img src="img/elegidas/elegida-10.jpg" alt="Decoración personalizada en madera"></div>
+            <div class="project-info"><h3>Decoración personalizada</h3><p>Nombres, marcos, siluetas y piezas decorativas a medida.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+        <article class="project-card reveal" data-category="funkos madera personalizados" data-title="MiniTú personalizados" data-material="Madera" data-technique="Diseño personalizado, corte y grabado láser" data-gallery="img/funkos/maestra/maestra-producto-profesional.png|img/funkos/maestra/maestra-zonas-editables.png|img/funkos/maestra/maestra-real-01.jpeg|img/funkos/maestra/maestra-real-02.jpg|img/funkos/maestra/maestra-real-03.jpg|img/funkos/maestra/maestra-real-04.jpg|img/funkos/maestra/maestra-real-05.jpg|img/funkos/maestra/maestra-real-06.jpg|img/funkos/maestra/maestra-real-07.jpg|img/funkos/amalia-edu/amalia-edu-01.jpg|img/funkos/amalia-edu/amalia-edu-02.jpg|img/funkos/amalia-edu/amalia-edu-03.jpg|img/elegidas/elegida-25.jpg" data-description="Figuras MiniTú fabricadas en madera a partir de una fotografía, con caja expositora, nombre y temática personalizada. Disponibles de 1 a 5 personajes.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto MiniTú">
+            <div class="project-image"><img src="img/funkos/maestra/maestra-producto-profesional.png" alt="MiniTú personalizado"></div>
+            <div class="project-info"><h3>MiniTú</h3><p>Figuras personalizadas con expositor, nombre, temática y hasta 5 personajes.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+        <article class="project-card reveal" data-category="personalizados decoracion" data-title="Detalles para eventos" data-material="Madera / cristal / otros soportes" data-technique="Diseño, corte y grabado" data-gallery="img/elegidas/elegida-08.jpg|img/elegidas/elegida-17.jpg|img/elegidas/elegida-23.jpg|img/elegidas/elegida-26.jpg|img/elegidas/elegida-13.jpg" data-description="Detalles personalizados para eventos, comuniones, celebraciones, regalos, recuerdos y packs especiales.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto Detalles para eventos">
+            <div class="project-image"><img src="img/elegidas/elegida-17.jpg" alt="Detalles personalizados para eventos"></div>
+            <div class="project-info"><h3>Detalles para eventos</h3><p>Recuerdos, etiquetas, regalos y detalles personalizados.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+        <article class="project-card reveal" data-category="madera decoracion" data-title="Cartelería y rótulos" data-material="Madera / MDF / metacrilato" data-technique="Corte láser y montaje" data-gallery="img/elegidas/elegida-01.jpg|img/elegidas/elegida-07.jpg|img/elegidas/elegida-14.jpg|img/elegidas/elegida-15.jpg|img/elegidas/elegida-16.jpg" data-description="Rótulos, placas y carteles personalizados para negocios, casas, eventos o regalos.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto Cartelería y rótulos">
+            <div class="project-image"><img src="img/elegidas/elegida-01.jpg" alt="Cartelería y rótulos láser"></div>
+            <div class="project-info"><h3>Cartelería y rótulos</h3><p>Carteles, placas y señalética con acabado personalizado.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+        <article class="project-card reveal" data-category="personalizados metacrilato madera" data-title="Diseños para marcas" data-material="Madera / metacrilato / otros soportes" data-technique="Diseño vectorial y láser" data-gallery="img/elegidas/elegida-07.jpg|img/elegidas/elegida-13.jpg|img/elegidas/elegida-18.jpg|img/elegidas/elegida-19.jpg|img/elegidas/elegida-06.jpg" data-description="Logos, expositores, etiquetas, vasos y piezas personalizadas para negocios que buscan una presentación cuidada.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto Diseños para marcas">
+            <div class="project-image"><img src="img/elegidas/elegida-07.jpg" alt="Diseño para marca El Tubo"></div>
+            <div class="project-info"><h3>Diseños para marcas</h3><p>Logos, expositores y piezas personalizadas para negocios.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+
+        <article class="project-card reveal" data-category="decoracion personalizados" data-title="Azulejos decorativos personalizados" data-material="Azulejo / cerámica" data-technique="Diseño y personalización láser" data-gallery="img/catalogo/decoracion/azulejos/camaron-de-la-isla-en-azulejo.jpg|img/catalogo/decoracion/azulejos/padrejesus-azulejo.jpg|img/catalogo/decoracion/azulejos/soledad-azulejo.jpg" data-description="Azulejos personalizados con imágenes, motivos religiosos, artistas y diseños decorativos preparados para regalo o decoración.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto Azulejos decorativos personalizados">
+            <div class="project-image"><img src="img/catalogo/decoracion/azulejos/camaron-de-la-isla-en-azulejo.jpg" alt="Azulejo decorativo personalizado"></div>
+            <div class="project-info"><h3>Azulejos decorativos</h3><p>Piezas personalizadas para decoración, regalos y recuerdos.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+
+        <article class="project-card reveal" data-category="decoracion madera personalizados" data-title="Cuadros y decoración musical" data-material="Madera / MDF" data-technique="Corte, grabado y montaje" data-gallery="img/catalogo/decoracion/cuadros/extremoduro-evaristo.jpg|img/catalogo/decoracion/cuadros/robe-en-madera-blanca.jpg|img/catalogo/decoracion/cuadros/robe-en-madera-negra.jpg" data-description="Cuadros decorativos personalizados en madera con temática musical, siluetas y composiciones hechas a medida.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto Cuadros y decoración musical">
+            <div class="project-image"><img src="img/catalogo/decoracion/cuadros/robe-en-madera-negra.jpg" alt="Cuadro decorativo musical en madera"></div>
+            <div class="project-info"><h3>Cuadros decorativos</h3><p>Decoración musical y piezas de pared personalizadas.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+
+        <article class="project-card reveal" data-category="decoracion madera personalizados" data-title="Decoración y piezas para negocios" data-material="Madera / MDF" data-technique="Corte y grabado láser" data-gallery="img/catalogo/decoracion/logo-en-relieve-para-tienda.jpg|img/catalogo/decoracion/numero-para-casa.jpg|img/catalogo/decoracion/puzzle-para-hotel.jpg" data-description="Logos en relieve, números para fachada, piezas decorativas y elementos personalizados para negocios, casas y espacios comerciales.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto Decoración y piezas para negocios">
+            <div class="project-image"><img src="img/catalogo/decoracion/logo-en-relieve-para-tienda.jpg" alt="Logo en relieve para tienda"></div>
+            <div class="project-info"><h3>Decoración y negocios</h3><p>Logos, números, puzzles y piezas decorativas a medida.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+
+        <article class="project-card reveal" data-category="madera personalizados" data-title="Trabajos personalizados en madera" data-material="Madera" data-technique="Corte y grabado láser" data-gallery="img/catalogo/madera/camraon-en-madera.jpg|img/catalogo/madera/fotograbado-en-madera.jpg|img/catalogo/madera/kaws-x-nike.jpg|img/catalogo/madera/llavero-en-madera.jpg|img/catalogo/madera/peana-san-francisco-de-asis.jpg" data-description="Fotograbados, llaveros, peanas, siluetas y piezas personalizadas en madera para regalos, decoración y encargos especiales.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto Trabajos personalizados en madera">
+            <div class="project-image"><img src="img/catalogo/madera/fotograbado-en-madera.jpg" alt="Fotograbado personalizado en madera"></div>
+            <div class="project-info"><h3>Madera personalizada</h3><p>Fotograbados, llaveros, peanas y piezas únicas en madera.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+
+        <article class="project-card reveal" data-category="metacrilato personalizados decoracion" data-title="Metacrilato y lámparas LED" data-material="Metacrilato" data-technique="Grabado láser y montaje LED" data-gallery="img/catalogo/metacrilato/escudo-para-trompeta.jpg|img/catalogo/metacrilato/lamparas-led/lamapra-san-benito.jpg|img/catalogo/metacrilato/lamparas-led/lampara-esperanza-de-triana.jpg|img/catalogo/metacrilato/lamparas-led/lampara-stumble-guys.jpg|img/catalogo/metacrilato/llavero-juan.jpg|img/catalogo/metacrilato/llaveros-fernando.jpg|img/catalogo/metacrilato/pito-de-carnaval.jpg" data-description="Lámparas LED, llaveros, escudos, detalles de carnaval y piezas en metacrilato personalizadas mediante grabado láser.">
+          <button class="project-open" type="button" aria-label="Abrir proyecto Metacrilato y lámparas LED">
+            <div class="project-image"><img src="img/catalogo/metacrilato/lamparas-led/lampara-esperanza-de-triana.jpg" alt="Lámpara LED personalizada en metacrilato"></div>
+            <div class="project-info"><h3>Metacrilato y LED</h3><p>Lámparas, llaveros, escudos y piezas luminosas personalizadas.</p><span>Ver proyecto</span></div>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <div class="project-modal" id="projectModal" aria-hidden="true">
+      <div class="project-modal-backdrop" data-close-modal></div>
+      <section class="project-modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" type="button" data-close-modal aria-label="Cerrar galería">×</button>
+        <div class="modal-gallery-area">
+          <button class="modal-arrow prev" type="button" aria-label="Imagen anterior">‹</button>
+          <div class="modal-image placeholder" id="modalImage">Imagen</div>
+          <button class="modal-arrow next" type="button" aria-label="Imagen siguiente">›</button>
+          <div class="modal-counter" id="modalCounter">1 / 1</div>
+        </div>
+        <div class="modal-details">
+          <p class="eyebrow">Proyecto destacado</p>
+          <h2 id="modalTitle">Título del proyecto</h2>
+          <p id="modalDescription">Descripción del proyecto.</p>
+          <div class="modal-meta">
+            <div><strong>Material</strong><span id="modalMaterial">Madera</span></div>
+            <div><strong>Técnica</strong><span id="modalTechnique">Grabado láser</span></div>
+          </div>
+          <div class="modal-thumbs" id="modalThumbs"></div>
+          <a class="btn primary" id="modalWhatsapp" href="https://wa.me/34600000000" target="_blank" rel="noopener">Pedir uno parecido</a>
+        </div>
+      </section>
+    </div>
+
+
+    <section class="section funko-section" id="funkos">
+      <div class="container minitu-section-header reveal">
+        <div class="minitu-product-brand" aria-label="MiniTú, marca de producto personalizado">
+          <img src="img/minitu-logo.png" alt="MiniTú" class="minitu-section-logo">
+          <div class="minitu-heading-text">
+            <p class="eyebrow">Producto personalizado</p>
+            <h2>Tu MiniTú hecho en madera</h2>
+            <p>Figuras personalizadas a partir de una foto.</p>
+            <p>Fabricado en madera mediante láser.</p>
+            <p>Un recuerdo único para regalar y sorprender.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container funko-grid">
+        <div class="funko-showcase reveal">
+          <p class="eyebrow">Diseño a medida</p>
+          <h2>MiniTú personalizados</h2>
+          <p>Convierte una foto en un MiniTú fabricado en madera mediante corte y grabado láser. Ideal para regalos, profesiones, bodas, jubilaciones, cumpleaños y detalles únicos.</p>
+          <div class="funko-preview funko-carousel" aria-label="Galería de ejemplos de MiniTú">
+            <button class="funko-carousel-btn funko-prev" type="button" aria-label="Ver imagen anterior">‹</button>
+            <div class="funko-carousel-track">
+              <img src="img/funkos/maestra/maestra-producto-profesional.png" alt="MiniTú Maestra en foto de producto profesional" class="funko-demo-photo funko-slide active">
+              <img src="img/funkos/maestra/maestra-zonas-editables.png" alt="Modelo explicativo con zonas editables del MiniTú" class="funko-demo-photo funko-slide">
+              <img src="img/funkos/maestra/maestra-real-01.jpeg" alt="MiniTú Maestra real" class="funko-demo-photo funko-slide">
+              <img src="img/funkos/maestra/maestra-real-02.jpg" alt="Detalle trasero del MiniTú Maestra" class="funko-demo-photo funko-slide">
+              <img src="img/funkos/maestra/maestra-real-03.jpg" alt="Frontal del expositor MiniTú Maestra" class="funko-demo-photo funko-slide">
+              <img src="img/funkos/amalia-edu/amalia-edu-01.jpg" alt="MiniTú Edu y Amalia con Bar El Tubo" class="funko-demo-photo funko-slide">
+              <img src="img/funkos/amalia-edu/amalia-edu-02.jpg" alt="Detalle MiniTú Edu y Amalia Bar El Tubo" class="funko-demo-photo funko-slide">
+              <img src="img/elegidas/elegida-25.jpg" alt="MiniTú DeeJays" class="funko-demo-photo funko-slide">
+            </div>
+            <button class="funko-carousel-btn funko-next" type="button" aria-label="Ver imagen siguiente">›</button>
+            <div class="funko-carousel-dots" aria-label="Selector de imágenes">
+              <button class="active" type="button" aria-label="Ver ejemplo 1"></button>
+              <button type="button" aria-label="Ver ejemplo 2"></button>
+              <button type="button" aria-label="Ver ejemplo 3"></button>
+              <button type="button" aria-label="Ver ejemplo 4"></button>
+              <button type="button" aria-label="Ver ejemplo 5"></button>
+              <button type="button" aria-label="Ver ejemplo 6"></button>
+              <button type="button" aria-label="Ver ejemplo 7"></button>
+              <button type="button" aria-label="Ver ejemplo 8"></button>
+            </div>
+            <p class="preview-note">Ejemplos reales. Haz clic en cualquier imagen para verla en grande. Cada diseño se crea de forma personalizada a partir de la fotografía enviada.</p>
+          </div>
+          <div class="funko-steps">
+            <span>1. Envías foto</span>
+            <span>2. Recibes vista previa para aprobar</span>
+            <span>3. Fabricamos y enviamos</span>
+          </div>
+        </div>
+
+        <form class="funko-form reveal" id="funkoForm">
+          <h3>Solicita tu MiniTú</h3>
+          <p>Rellena los datos y se abrirá WhatsApp con el mensaje preparado. Rellena los datos y se abrirá WhatsApp con el mensaje preparado.</p>
+
+          <label>Nombre del personaje
+            <input type="text" name="nombre" placeholder="Ejemplo: Antonio" required>
+          </label>
+
+          <label>Profesión, afición, temática o texto a elegir
+            <input type="text" name="profesion" id="funkoProfesion" placeholder="Ejemplo: MAESTRA, flautista, motero, costalero..." required>
+          </label>
+
+          <label>Curso / año / detalle circular
+            <input type="text" name="cursoAno" id="funkoCurso" placeholder="Ejemplo: 4ºA, 2026, 50 años...">
+          </label>
+
+          <label>Nombre para la base
+            <input type="text" name="peana" id="funkoNombre" placeholder="Ejemplo: Nerea">
+          </label>
+
+          <label>Número de personajes
+            <select name="personajes"><option>1 personaje</option><option>2 personajes</option><option>3 personajes</option><option>4 personajes</option><option>5 personajes</option></select><small>Disponible con hasta 5 personajes en la misma caja expositora.</small>
+          </label>
+
+          <label>Comentarios o detalles especiales
+            <textarea name="comentarios" rows="5" placeholder="Gafas, uniforme, herramienta, mascota, colores, postura..."></textarea>
+          </label>
+
+          <button class="btn primary" type="submit">Abrir WhatsApp</button>
+        </form>
+      </div>
+      <div class="container funko-full-gallery reveal">
+        <div class="section-title compact-title">
+          <p class="eyebrow">Ejemplos reales</p>
+          <h2>Galería de MiniTú realizados</h2>
+          <p>Algunos trabajos ya fabricados para que puedas ver estilos, formatos y acabados.</p>
+        </div>
+        <div class="minitu-gallery-shell" aria-label="Galería de MiniTú realizados">
+          <button class="minitu-gallery-arrow minitu-gallery-prev" type="button" aria-label="Ver MiniTú anterior">‹</button>
+          <div class="minitu-horizontal-gallery" tabindex="0">
+            <button class="minitu-gallery-item" type="button" aria-label="Ampliar MiniTú personalizado realizado en madera">
+              <img src="img/minitu-galeria/minitu-01.jpg" alt="MiniTú personalizado realizado en madera">
+            </button>
+            <button class="minitu-gallery-item" type="button" aria-label="Ampliar MiniTú personalizado con acabado profesional">
+              <img src="img/minitu-galeria/minitu-02.jpg" alt="MiniTú personalizado con acabado profesional">
+            </button>
+            <button class="minitu-gallery-item" type="button" aria-label="Ampliar ejemplo de MiniTú personalizado">
+              <img src="img/minitu-galeria/minitu-03.jpg" alt="Ejemplo de MiniTú personalizado">
+            </button>
+            <button class="minitu-gallery-item" type="button" aria-label="Ampliar MiniTú personalizado con caja expositora">
+              <img src="img/minitu-galeria/minitu-04.jpg" alt="MiniTú personalizado con caja expositora">
+            </button>
+            <button class="minitu-gallery-item" type="button" aria-label="Ampliar figura MiniTú personalizada en madera">
+              <img src="img/minitu-galeria/minitu-05.jpg" alt="Figura MiniTú personalizada en madera">
+            </button>
+          </div>
+          <button class="minitu-gallery-arrow minitu-gallery-next" type="button" aria-label="Ver MiniTú siguiente">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-wrap" id="servicios">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Servicios</p>
+          <h2>Qué podemos crear</h2>
+        </div>
+        <div class="services">
+          <article class="service reveal"><span>01</span><h3>Corte láser</h3><p>Cortes precisos para piezas decorativas, plantillas, rótulos y prototipos.</p></article>
+          <article class="service reveal"><span>02</span><h3>Grabado láser</h3><p>Personalización de madera, metacrilato y otros soportes compatibles.</p></article>
+          <article class="service reveal"><span>03</span><h3>Diseño a medida</h3><p>Partimos de tu idea y la convertimos en un archivo preparado para fabricar.</p></article>
+          <article class="service reveal"><span>04</span><h3>Regalos personalizados</h3><p>Piezas únicas para sorprender en eventos, fechas especiales o negocios.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container process" id="proceso">
+      <div class="section-title reveal">
+        <p class="eyebrow">Proceso</p>
+        <h2>De la idea al acabado final</h2>
+      </div>
+      <div class="timeline">
+        <article class="reveal"><strong>1</strong><h3>Cuéntanos tu idea</h3><p>Envíanos una foto, boceto, medidas o referencia.</p></article>
+        <article class="reveal"><strong>2</strong><h3>Preparamos el diseño</h3><p>Ajustamos el archivo para corte o grabado láser.</p></article>
+        <article class="reveal"><strong>3</strong><h3>Fabricamos la pieza</h3><p>Cuidamos el material, los detalles y el acabado.</p></article>
+        <article class="reveal"><strong>4</strong><h3>Entrega</h3><p>Recibes una pieza personalizada y lista para usar o regalar.</p></article>
+      </div>
+    </section>
+
+    <section class="section quote" id="presupuesto">
+      <div class="container quote-grid">
+        <div class="reveal">
+          <p class="eyebrow">Presupuesto</p>
+          <h2>¿Tienes una idea?</h2>
+          <p>Rellena el formulario o escríbenos por WhatsApp. Cuantos más detalles nos des, mejor podremos orientarte.</p>
+        </div>
+        <form class="quote-form reveal" action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
+          <label>Nombre<input type="text" name="nombre" placeholder="Tu nombre" required></label>
+          <label>Teléfono o email<input type="text" name="contacto" placeholder="Dónde podemos responderte" required></label>
+          <label>Tipo de trabajo<select name="tipo"><option>Corte láser</option><option>Grabado láser</option><option>Diseño personalizado</option><option>Regalo o evento</option></select></label>
+          <label>Mensaje<textarea name="mensaje" rows="5" placeholder="Material, medidas, cantidad, fecha..."></textarea></label>
+          <button class="btn primary" type="submit">Enviar solicitud</button>
+        </form>
+      </div>
+
+    </section>
+
+    <section class="section container contact" id="contacto">
+      <div class="section-title reveal">
+        <p class="eyebrow">Contacto</p>
+        <h2>Hablemos de tu próximo proyecto</h2>
+      </div>
+      <div class="contact-cards">
+        <a class="contact-card reveal" href="https://wa.me/34642823258" target="_blank" rel="noopener"><strong>WhatsApp</strong><span>+34 642 823 258</span></a>
+        <a class="contact-card reveal" href="mailto:castilblancolaser@gmail.com"><strong>Email</strong><span>castilblancolaser@gmail.com</span></a>
+        <a class="contact-card reveal" href="https://instagram.com/castilblancolaser" target="_blank" rel="noopener"><strong>Instagram</strong><span>@castilblancolaser</span></a>
+      </div>
+      <div class="contact-logo reveal">
+        <img src="img/castilblanco-logo-negro.svg" alt="Castilblanco Laser">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Castilblanco Laser · Diseño, corte y grabado láser</p>
+  </footer>
+
+
+  <button class="back-to-top" type="button" aria-label="Volver arriba" title="Volver arriba"></button>
+  <a class="whatsapp-float" href="https://wa.me/34642823258" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">WhatsApp</a>
+  <script src="script.js"></script>
+</body>
+</html>
