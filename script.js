@@ -292,3 +292,19 @@ if (worksGallery && worksMoreBtn) {
     worksMoreBtn.setAttribute('aria-expanded', String(!isCollapsed));
   });
 }
+
+
+// Flechas de navegación para la galería de portadas
+const featuredGallery = document.querySelector('#trabajos .featured-category-gallery');
+const featuredPrev = document.querySelector('#trabajos .featured-gallery-prev');
+const featuredNext = document.querySelector('#trabajos .featured-gallery-next');
+if (featuredGallery && featuredPrev && featuredNext) {
+  const moveFeaturedGallery = (direction) => {
+    const card = featuredGallery.querySelector('.project-card');
+    const gap = 22;
+    const amount = card ? card.getBoundingClientRect().width + gap : 320;
+    featuredGallery.scrollBy({ left: direction * amount, behavior: 'smooth' });
+  };
+  featuredPrev.addEventListener('click', () => moveFeaturedGallery(-1));
+  featuredNext.addEventListener('click', () => moveFeaturedGallery(1));
+}
