@@ -16,7 +16,8 @@ filterButtons.forEach(button => {
     button.classList.add('active');
     const filter = button.dataset.filter;
     cards.forEach(card => {
-      const match = filter === 'todos' || card.dataset.category.includes(filter);
+      const categories = (card.dataset.category || '').toLowerCase();
+      const match = filter === 'todos' || categories.includes(filter.toLowerCase());
       card.classList.toggle('hide', !match);
     });
   });
@@ -186,7 +187,7 @@ Sin la fotografía no podremos comenzar el diseño.
   });
 }
 
-// Carrusel de ejemplos de Funkos de Madera
+// Carrusel de ejemplos de MiniTú
 const funkoSlides = document.querySelectorAll('.funko-slide');
 const funkoDots = document.querySelectorAll('.funko-carousel-dots button');
 const funkoPrev = document.querySelector('.funko-prev');
@@ -215,7 +216,7 @@ funkoSlides.forEach((slide, i) => {
     currentImages = Array.from(funkoSlides).map(img => img.getAttribute('src')).filter(Boolean);
     currentIndex = i;
     modalTitle.textContent = currentTitle;
-    modalDescription.textContent = 'Galería de ejemplos reales y maqueta explicativa de zonas personalizables.';
+    modalDescription.textContent = 'Galería de ejemplos reales de MiniTú y maqueta explicativa de zonas personalizables.';
     modalMaterial.textContent = 'Madera';
     modalTechnique.textContent = 'Corte y grabado láser';
     modalWhatsapp.href = `https://wa.me/34642823258?text=${encodeURIComponent('Hola, quiero pedir presupuesto para un MiniTú personalizado.')}`;
