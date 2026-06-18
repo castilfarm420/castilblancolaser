@@ -292,3 +292,19 @@ if (worksGallery && worksMoreBtn) {
     worksMoreBtn.setAttribute('aria-expanded', String(!isCollapsed));
   });
 }
+
+
+// Flechas de la galería de portadas de trabajos destacados
+const worksGallery = document.getElementById('workGallery');
+const worksPrev = document.querySelector('.works-prev');
+const worksNext = document.querySelector('.works-next');
+
+function scrollWorksGallery(direction) {
+  if (!worksGallery) return;
+  const firstCard = worksGallery.querySelector('.project-card');
+  const step = firstCard ? firstCard.getBoundingClientRect().width + 22 : 320;
+  worksGallery.scrollBy({ left: direction * step, behavior: 'smooth' });
+}
+
+worksPrev?.addEventListener('click', () => scrollWorksGallery(-1));
+worksNext?.addEventListener('click', () => scrollWorksGallery(1));
