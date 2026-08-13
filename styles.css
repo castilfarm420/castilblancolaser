@@ -1664,3 +1664,6 @@ html, body {
     width:82vw !important;
   }
 }
+
+/* SEO/service expansion: balanced layout for the complete workshop services */
+@media (min-width:901px){.services{grid-template-columns:repeat(3,1fr)}}
