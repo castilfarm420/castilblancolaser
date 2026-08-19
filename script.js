@@ -79,7 +79,7 @@ function openProject(card) {
   modalDescription.textContent = card.dataset.description || '';
   modalMaterial.textContent = card.dataset.material || 'Consultar';
   modalTechnique.textContent = card.dataset.technique || 'Láser';
-  modalWhatsapp.href = `https://wa.me/34642823258?text=${encodeURIComponent('Hola, quiero pedir presupuesto para un trabajo parecido a: ' + currentTitle)}`;
+  modalWhatsapp.href = `https://wa.me/34647571705?text=${encodeURIComponent('Hola, quiero pedir presupuesto para un trabajo parecido a: ' + currentTitle)}`;
 
   modalThumbs.innerHTML = '';
   currentImages.forEach((item, index) => {
@@ -183,7 +183,7 @@ Sin la fotografía no podremos comenzar el diseño.
 
     const mensaje = `Hola Castilblanco Laser.\n\nQuiero pedir presupuesto para un MiniTú personalizado.\n\nNombre del personaje: ${data.get('nombre') || ''}\nProfesión, afición, temática o texto a elegir: ${data.get('profesion') || ''}\nCurso / año / detalle circular: ${data.get('cursoAno') || ''}\nNombre para la base: ${data.get('peana') || ''}\nNúmero de personajes: ${data.get('personajes') || '1 personaje'}${notaCliente}\nComentarios: ${data.get('comentarios') || ''}\n\nGracias.`;
 
-    window.open(`https://wa.me/34642823258?text=${encodeURIComponent(mensaje)}`, '_blank');
+    window.open(`https://wa.me/34647571705?text=${encodeURIComponent(mensaje)}`, '_blank');
   });
 }
 
@@ -219,7 +219,7 @@ funkoSlides.forEach((slide, i) => {
     modalDescription.textContent = 'Galería de ejemplos reales de MiniTú y maqueta explicativa de zonas personalizables.';
     modalMaterial.textContent = 'Madera';
     modalTechnique.textContent = 'Corte y grabado láser';
-    modalWhatsapp.href = `https://wa.me/34642823258?text=${encodeURIComponent('Hola, quiero pedir presupuesto para un MiniTú personalizado.')}`;
+    modalWhatsapp.href = `https://wa.me/34647571705?text=${encodeURIComponent('Hola, quiero pedir presupuesto para un MiniTú personalizado.')}`;
     modalThumbs.innerHTML = '';
     currentImages.forEach((item, index) => {
       const thumb = document.createElement('button');
